@@ -40,23 +40,23 @@ export default function About() {
           />
         </div>
         <div className="max-w-[480px] max-[760px]:max-w-[560px]">
-          <p className="mb-[18px] text-[12px] font-bold tracking-[0.18em] text-olive uppercase">
+          <p className="mb-[18px] text-md font-bold tracking-[0.18em] text-olive uppercase">
             The heart of the house
           </p>
           <h2 className="mb-[25px] font-serif text-[clamp(38px,5vw,66px)] leading-[1.08] tracking-[-0.035em]">
             A place that feels like yours.
           </h2>
-          <p className="mb-7 max-w-[490px] text-[15px] leading-[1.8] text-muted">
+          <p className="mb-7 max-w-[490px] text-lg leading-[1.8] text-muted">
             Aangan means courtyard: the heart of a home, where everyone ends up.
             We made this one for slow mornings, full tables and the kind of
             celebrations that feel like you.
           </p>
-          <p className="mb-7 max-w-[490px] text-[15px] leading-[1.8] text-muted">
+          <p className="mb-7 max-w-[490px] text-lg leading-[1.8] text-muted">
             Whether you&apos;re here for a night away or a day worth
             remembering, there&apos;s room to make it your own. Come as you are;
             we&apos;ll take care of the rest.
           </p>
-          <div className="mt-[47px] border-t border-line pt-5 text-[10px] tracking-[0.12em] text-muted uppercase max-[760px]:mt-[30px]">
+          <div className="mt-[47px] border-t border-line pt-5 text-sm tracking-[0.12em] text-muted uppercase max-[760px]:mt-[30px]">
             Good company is always in season
           </div>
         </div>

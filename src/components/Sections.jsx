@@ -1,4 +1,4 @@
-import TextLink from "./text-link";
+import TextLink from "./TextLink";
 
 export function PageHero({ image, alt, eyebrow, title, description }) {
   return (
@@ -16,7 +16,7 @@ export function PageHero({ image, alt, eyebrow, title, description }) {
         <h1 className="m-0 max-w-[760px] font-serif text-[clamp(58px,8vw,100px)] leading-none tracking-[-0.045em] max-[760px]:text-[clamp(55px,14vw,82px)]">
           {title}
         </h1>
-        <p className="mt-[23px] mb-0 max-w-[445px] text-[14px] leading-[1.8] text-white/85">
+        <p className="mt-[23px] mb-0 max-w-[445px] text-lg leading-[1.8] text-white/85">
           {description}
         </p>
       </div>
@@ -28,13 +28,13 @@ export function SimpleBand({ eyebrow, title, description, link, linkText }) {
   return (
     <section className="bg-band py-[95px] max-[760px]:py-[72px]">
       <div className="mx-auto w-[calc(100%-96px)] max-w-[1320px] max-[1050px]:w-[min(calc(100%-56px),900px)] max-[760px]:w-[calc(100%-40px)]">
-        <p className="mb-[18px] text-[15px] font-bold tracking-[0.18em] text-olive uppercase">
+        <p className="mb-[18px] text-lg font-bold tracking-[0.18em] text-olive uppercase">
           {eyebrow}
         </p>
         <h2 className="mb-5 max-w-[760px] font-serif text-[clamp(38px,5vw,66px)] leading-[1.08] tracking-[-0.035em]">
           {title}
         </h2>
-        <p className="mb-[26px] max-w-[490px] text-[15px] leading-[1.8] text-muted">
+        <p className="mb-[26px] max-w-[490px] text-lg leading-[1.8] text-muted">
           {description}
         </p>
         <TextLink href={link}>{linkText}</TextLink>

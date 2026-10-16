@@ -30,14 +30,14 @@ export default function Contact() {
       >
         <div className="mb-[42px] flex items-end justify-between gap-[30px] max-[760px]:mb-[37px] max-[760px]:flex-col max-[760px]:items-start max-[760px]:gap-[15px]">
           <div>
-            <p className="mb-[18px] text-[12px] font-bold tracking-[0.18em] text-olive uppercase">
+            <p className="mb-[18px] text-md font-bold tracking-[0.18em] text-olive uppercase">
               Let&apos;s start with hello
             </p>
             <h2 className="m-0 font-serif text-[clamp(38px,5vw,66px)] leading-[1.08] tracking-[-0.035em]">
               How can we help?
             </h2>
           </div>
-          <p className="m-0 max-w-[380px] text-[15px] leading-[1.8] text-muted">
+          <p className="m-0 max-w-[380px] text-lg leading-[1.8] text-muted">
             Send us a note and our team will be in touch. For room availability,
             you can also{" "}
             <Link className="underline" href="/rooms#booking">
@@ -49,38 +49,38 @@ export default function Contact() {
         <div className="grid grid-cols-[0.72fr_1.28fr] gap-[11%] max-[760px]:grid-cols-1 max-[760px]:gap-[42px]">
           <div className="flex flex-col gap-[29px] max-[760px]:grid max-[760px]:grid-cols-2 max-[760px]:gap-x-[18px] max-[760px]:gap-y-6">
             <div>
-              <p className="mb-2 text-[9px] font-bold tracking-[0.14em] text-muted uppercase">
+              <p className="mb-2 text-sm font-bold tracking-[0.14em] text-muted uppercase">
                 Find us
               </p>
-              <p className="m-0 font-serif text-[19px] leading-[1.55] max-[760px]:text-[17px]">
+              <p className="m-0 font-serif text-lg leading-[1.55] max-[760px]:text-md">
                 A quiet corner, just outside the city.
                 <br />
                 Your town, your state.
               </p>
             </div>
             <div>
-              <p className="mb-2 text-[9px] font-bold tracking-[0.14em] text-muted uppercase">
+              <p className="mb-2 text-sm font-bold tracking-[0.14em] text-muted uppercase">
                 Call the house
               </p>
-              <p className="m-0 font-serif text-[19px] leading-[1.55] max-[760px]:text-[17px]">
+              <p className="m-0 font-serif text-lg leading-[1.55] max-[760px]:text-md">
                 <a href="tel:+910000000000">+91 00000 00000</a>
               </p>
             </div>
             <div>
-              <p className="mb-2 text-[9px] font-bold tracking-[0.14em] text-muted uppercase">
+              <p className="mb-2 text-sm font-bold tracking-[0.14em] text-muted uppercase">
                 Write us a note
               </p>
-              <p className="m-0 font-serif text-[19px] leading-[1.55] max-[760px]:text-[17px]">
+              <p className="m-0 font-serif text-lg leading-[1.55] max-[760px]:text-md">
                 <a href="mailto:hello@aanganhouse.example">
                   hello@aanganhouse.example
                 </a>
               </p>
             </div>
             <div>
-              <p className="mb-2 text-[9px] font-bold tracking-[0.14em] text-muted uppercase">
+              <p className="mb-2 text-sm font-bold tracking-[0.14em] text-muted uppercase">
                 Come by
               </p>
-              <p className="m-0 font-serif text-[19px] leading-[1.55] max-[760px]:text-[17px]">
+              <p className="m-0 font-serif text-lg leading-[1.55] max-[760px]:text-md">
                 Every day, by appointment
               </p>
             </div>

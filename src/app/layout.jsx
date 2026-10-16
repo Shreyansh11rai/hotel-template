@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <div className="flex h-[34px] items-center justify-center bg-topline px-3 text-center text-[14px] uppercase tracking-[0.12em] text-topline-ink max-[760px]:h-[30px] max-[760px]:text-[9px]">
+        <div className="flex p-3 items-center justify-center bg-topline px-3 text-center text-[9px] md:text-sm uppercase tracking-[0.12em] text-topline-ink">
           A little space to celebrate, a little more time to stay
         </div>
         <SiteHeader />

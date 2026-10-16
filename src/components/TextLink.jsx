@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function TextLink({ href, children }) {
   return (
     <Link
-      className="inline-flex items-center gap-3 border-b border-current pb-[7px] text-[15px] font-bold tracking-[0.1em] uppercase transition-[gap] duration-200 ease-in-out hover:gap-[18px]"
+      className="inline-flex items-center gap-3 border-b border-current pb-[7px] text-lg font-bold tracking-[0.1em] uppercase transition-[gap] duration-200 ease-in-out hover:gap-[18px]"
       href={href}
     >
       {children}
