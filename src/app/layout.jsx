@@ -4,8 +4,7 @@ import SiteFooter from "../components/Footer";
 
 export const metadata = {
   title: "Aangan House — A place to gather",
-  description:
-    "A warm, thoughtful retreat for celebrations, stays and gatherings.",
+  description: "A warm, thoughtful retreat for celebrations.",
 };
 
 export default function RootLayout({ children }) {
