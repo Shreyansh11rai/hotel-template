@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "static": "npm serve out -p 3000",
+    "static": "npx serve out -p 3000",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
