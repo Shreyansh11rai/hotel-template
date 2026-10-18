@@ -47,7 +47,7 @@ export default function Rooms() {
             >
               <img
                 className="h-[250px] w-full object-cover"
-                src={room.image}
+                src={process.env.NEXT_PUBLIC_BASE_PATH + room.image}
                 alt={room.imageAlt}
                 loading="lazy"
               />

@@ -5,7 +5,7 @@ export function PageHero({ image, alt, eyebrow, title, description }) {
     <section className="relative flex min-h-[510px] items-end overflow-hidden bg-[#494b3a] text-white max-[760px]:min-h-[460px] max-[430px]:min-h-[420px]">
       <img
         className="absolute inset-0 h-full w-full object-cover"
-        src={image}
+        src={process.env.NEXT_PUBLIC_BASE_PATH + image}
         alt={alt}
       />
       <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(20,24,18,0.63),rgba(20,24,18,0.08)_82%),linear-gradient(0deg,rgba(20,24,18,0.42),transparent_62%)]" />

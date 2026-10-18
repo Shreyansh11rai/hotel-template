@@ -46,7 +46,7 @@ export default function Spaces() {
               <article className="min-w-0" key={hall.name}>
                 <img
                   className="h-[280px] w-full object-cover"
-                  src={hall.image}
+                  src={process.env.NEXT_PUBLIC_BASE_PATH + hall.image}
                   alt={hall.imageAlt}
                   loading="lazy"
                 />
@@ -61,7 +61,8 @@ export default function Spaces() {
                     {hall.description}
                   </p>
                   <p className="mb-5 text-sm font-semibold tracking-[0.04em] text-olive">
-                    {hall.capacity} <span aria-hidden="true">·</span> {hall.area}
+                    {hall.capacity} <span aria-hidden="true">·</span>{" "}
+                    {hall.area}
                   </p>
                   <WhatsAppLink
                     className="inline-flex items-center gap-2 border-b border-current pb-[7px] text-md font-bold tracking-[0.08em] uppercase"
@@ -100,7 +101,7 @@ export default function Spaces() {
             >
               <img
                 className="h-[260px] w-full object-cover"
-                src={experience.image}
+                src={process.env.NEXT_PUBLIC_BASE_PATH + experience.image}
                 alt={experience.imageAlt}
                 loading="lazy"
               />

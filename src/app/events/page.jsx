@@ -47,7 +47,7 @@ export default function Events() {
             >
               <img
                 className="h-[260px] w-full object-cover"
-                src={hall.image}
+                src={process.env.NEXT_PUBLIC_BASE_PATH + hall.image}
                 alt={hall.imageAlt}
                 loading="lazy"
               />

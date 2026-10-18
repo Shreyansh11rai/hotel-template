@@ -51,7 +51,7 @@ export default function GalleryGrid() {
           >
             <img
               className="absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
-              src={photo.image}
+              src={process.env.NEXT_PUBLIC_BASE_PATH + photo.image}
               alt={photo.alt}
               loading="lazy"
             />

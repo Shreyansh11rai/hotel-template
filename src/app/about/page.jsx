@@ -6,7 +6,7 @@ export const metadata = {
     "The story behind Aangan House, a place for unhurried stays and heartfelt gatherings.",
 };
 
-const image = (id) => `/images/${id}.jpg`;
+const image = (id) => `/${process.env.NEXT_PUBLIC_BASE_PATH}/images/${id}.jpg`;
 
 export default function About() {
   return (

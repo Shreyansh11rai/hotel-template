@@ -52,7 +52,8 @@ const cards = [
     "A welcoming, sunlit lounge",
   ],
 ];
-const photo = (id) => `/images/${id}.jpg`;
+
+const photo = (id) => `${process.env.NEXT_PUBLIC_BASE_PATH}/images/${id}.jpg`;
 
 export default function Home() {
   return (
